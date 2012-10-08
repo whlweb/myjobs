@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE dwr PUBLIC  
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"  
+    "http://getahead.org/dwr/dwr30.dtd">  
+ <dwr>  
+    <allow>  
+        <create creator="new" javascript="service" scope="application">  
+            <param name="class" value="dwr.Test"></param>  
+        </create>  
+        <convert match="entity.User" converter="bean"/>
+        
+    </allow>  
+ </dwr> 
